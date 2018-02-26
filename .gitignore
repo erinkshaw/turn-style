@@ -2,3 +2,9 @@
 /venv/*
 
 /app/__pycache__/*
+
+/app/db/__pycache__/*
+
+config.py
+
+turnstile_180224.txt
