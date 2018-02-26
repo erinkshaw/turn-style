@@ -1,0 +1,15 @@
+<html>
+    <head>
+      <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles.css') }}">
+      {% if title %}
+      <title>{{ title }} - Microblog</title>
+      {% else %}
+      <title>Welcome to Microblog</title>
+      {% endif %}
+    </head>
+    <body>
+        <div>Microblog: <a href="/index">Home</a></div>
+        <hr>
+        {% block content %}{% endblock %}
+    </body>
+</html>
