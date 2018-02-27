@@ -4,8 +4,4 @@ def data_convert():
   data_arr = [line.rstrip().split(',') for line in turn_data.readlines()]
   keys = data_arr[0]
   data_arr = data_arr[1:]
-  return data_arr[1]
-
-
-
-print(data_convert())
+  return {'keys': keys, 'data': data_arr}
