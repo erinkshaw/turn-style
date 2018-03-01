@@ -1,8 +1,8 @@
-from pymongo import MongoClient
+from db import client
 from data import data_convert
 import config, datetime
 
-client = MongoClient(f'mongodb+srv://erinkshaw:{config.mongo_db_pw}@turnstyle-hs7gg.mongodb.net/test')
+# client = MongoClient(f'mongodb+srv://erinkshaw:{config.mongo_db_pw}@turnstyle-hs7gg.mongodb.net/test')
 
 db = client.mta
 
@@ -36,5 +36,4 @@ def filter_data_seed():
           result = db.filteredTurns.insert_one(new_instance)
           print(f'succesfully created {result.inserted_id}...')
 
-filter_data_seed()
 
