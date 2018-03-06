@@ -4,7 +4,7 @@
     <h1>TURNSTILE DATA OMG</h1>
     <table>
         {% for station in stations %}
-        <tr><td>{{ station }}</td><td>%%</td></tr>
+        <tr><td><p class="{{ station }}">{{ station }}</p></td><td>%%</td></tr>
         {% endfor %}
     </table>
 {% endblock %}

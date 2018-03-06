@@ -12,7 +12,6 @@ db = client.mta.filteredTurns
 def index():
     dates = db.distinct('DATE')
     stations = db.distinct('STATION')
-    print(stations)
     return render_template('index.html', dates=dates, stations=stations)
 
 @app.route('/api/<path:date>/<hour>', methods=['GET'])
