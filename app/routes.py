@@ -14,6 +14,7 @@ def index():
     stations = db.distinct('STATION')
     return render_template('index.html', dates=dates, stations=stations)
 
+# this will need to be redone to pull from static data rather than db
 @app.route('/api/<path:date>/<hour>', methods=['GET'])
 def get_all_stations_by_hour(date, hour):
     data = list(db.find({'DATE': date, 'TIME': hour}))

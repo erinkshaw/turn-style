@@ -1,3 +1,4 @@
+# script to be used on any txt file from mta turnstile data
 
 def data_convert():
   turn_data = open('turnstile_180224.txt', 'r')

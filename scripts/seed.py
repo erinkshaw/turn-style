@@ -19,6 +19,7 @@ def raw_data_db_seed():
     print(f'succesfully created {result.inserted_id}...')
 
 # Now let's make this data more usable
+# This needs to be optimized
 def filter_data_seed():
   dates = db.turns.distinct('DATE')
   stations = db.turns.distinct('STATION')
