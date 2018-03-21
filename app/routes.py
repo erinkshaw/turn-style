@@ -1,21 +1,16 @@
-from flask import render_template, jsonify
-from app import app, config
-from pymongo import MongoClient
-import json
-from bson import json_util
-
-client = MongoClient(f'mongodb+srv://erinkshaw:{config.mongo_db_pw}@turnstyle-hs7gg.mongodb.net/test')
-db = client.mta.filteredTurns
+from flask import render_template, url_for, jsonify, json
+import os
+from app import app
 
 @app.route('/')
 @app.route('/index')
 def index():
-    dates = db.distinct('DATE')
-    stations = db.distinct('STATION')
-    return render_template('index.html', dates=dates, stations=stations)
+    return render_template('index.html')
 
-# this will need to be redone to pull from static data rather than db
-@app.route('/api/<path:date>/<hour>', methods=['GET'])
-def get_all_stations_by_hour(date, hour):
-    data = list(db.find({'DATE': date, 'TIME': hour}))
-    return json.dumps(data, default=json_util.default)
+@app.route('/data/<path:path>')
+def send_json(path):
+    with app.open_resource(f'static/data/{path}.json') as f:
+        data = json.load(f)
+        return jsonify(data)
+
+
