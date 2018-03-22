@@ -1,5 +1,4 @@
-from flask import render_template, url_for, jsonify, json
-import os
+from flask import render_template, jsonify, json
 from app import app
 
 @app.route('/')
