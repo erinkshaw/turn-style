@@ -1,3 +1,58 @@
 body {
-  background-color: red
+  background-color: #212121;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo {
+  font-family: 'Monoton', cursive;
+  font-size: 4em;
+}
+
+.ACE {
+  color: #0039A6
+}
+
+.BDFM {
+  color: #FF6319
+}
+
+.G {
+  color: #6CBE45
+}
+
+.JZ {
+  color: #996633
+}
+
+.L {
+  color: #A7A9AC
+}
+
+.NQR {
+  color: #FCCC0A
+}
+
+._123 {
+  color: #EE352E
+}
+
+._456 {
+  color: #00933C
+}
+
+._7 {
+  color: #B933AD
+}
+
+hr {
+  visibility: hidden
 }
