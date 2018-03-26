@@ -31,3 +31,14 @@ fetch('/data/stations')
 fetch('/data/data_by_date')
   .then(blob => blob.json())
   .then(console.log)
+
+mapAccessToken = 'pk.eyJ1IjoiZXJpbmtzaGF3IiwiYSI6ImNqZTNlZ3ZqcjY3YmoycXFwMjR1bGNzZnYifQ.qoC7ahENl1v7ArdJmR1ExA'
+
+mapboxgl.accessToken = mapAccessToken
+var map = new mapboxgl.Map({
+    container: 'map',
+    style: "mapbox://styles/mapbox/dark-v9",
+    // 'mapbox://styles/erinkshaw/cjf8kz9zp3vjd2rmkitwo1f7r',
+    center: [-73.9500, 40.770],
+    zoom: 10.3
+})
