@@ -50,22 +50,36 @@ const mtaPantoneClassNames = {
   7: '_7'
 }
 
-console.log('hi')
+let stations = {}
+
 fetch('/data/stations')
   .then(blob => blob.json())
-  .then(console.log)
+  .then(geoStns => {
+    stations = geoStns
+    stations.features.forEach(function(marker) {
+      const station = marker.properties.STATION.slice(-1)
+      const color = mtaPantoneClassNames[station]
+      var el = document.createElement('div')
+      el.className = `marker ${color}`
+      el.id = marker.properties.STATION
+      el.style.backgroundColor = mtaPantone[station]
+
+      new mapboxgl.Marker(el)
+      .setLngLat(marker.geometry.coordinates)
+      .addTo(map)
+    })
+  })
 
 fetch('/data/data_by_date')
   .then(blob => blob.json())
   .then(console.log)
 
-mapAccessToken = 'pk.eyJ1IjoiZXJpbmtzaGF3IiwiYSI6ImNqZTNlZ3ZqcjY3YmoycXFwMjR1bGNzZnYifQ.qoC7ahENl1v7ArdJmR1ExA'
+const mapAccessToken = 'pk.eyJ1IjoiZXJpbmtzaGF3IiwiYSI6ImNqZTNlZ3ZqcjY3YmoycXFwMjR1bGNzZnYifQ.qoC7ahENl1v7ArdJmR1ExA'
 
 mapboxgl.accessToken = mapAccessToken
 var map = new mapboxgl.Map({
     container: 'map',
-    style: "mapbox://styles/mapbox/dark-v9",
-    // 'mapbox://styles/erinkshaw/cjf8kz9zp3vjd2rmkitwo1f7r',
-    center: [-73.9500, 40.770],
-    zoom: 10.3
+    style: 'mapbox://styles/erinkshaw/cjf8kz9zp3vjd2rmkitwo1f7r',
+    center: [-73.857, 40.742],
+    zoom: 10.1
 })

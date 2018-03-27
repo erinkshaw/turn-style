@@ -9,7 +9,7 @@ def stations_convert():
   "features": [] }
   for row in csv_f:
     station = f"{row[2]} {row[3]}"
-    coord = [row[5], row[6]]
+    coord = [float(row[6]), float(row[5])]
     print(geo_json["features"])
     if not any(stn["properties"]["STATION"] == station for stn in geo_json["features"]):
       new_stn = {
