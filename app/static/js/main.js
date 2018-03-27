@@ -23,6 +23,33 @@ const mtaPantone = {
   6: '#00933C',
   7: '#B933AD'
 }
+
+const mtaPantoneClassNames = {
+  A: 'ACE',
+  C: 'ACE',
+  E: 'ACE',
+  B: 'BDFM',
+  D: 'BDFM',
+  F: 'BDFM',
+  M: 'BDFM',
+  G: 'G',
+  J: 'JZ',
+  Z: 'JZ',
+  L: 'L',
+  N: 'NQRW',
+  Q: 'NQRW',
+  R: 'NQRW',
+  W: 'NQRW',
+  S: 'S',
+  1: '_123',
+  2: '_123',
+  3: '_123',
+  4: '_456',
+  5: '_456',
+  6: '_456',
+  7: '_7'
+}
+
 console.log('hi')
 fetch('/data/stations')
   .then(blob => blob.json())

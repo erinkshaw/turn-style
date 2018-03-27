@@ -1,16 +1,29 @@
 
 import csv, json
 
+# convert to csv to geojson
 def stations_convert():
-  f = open('../stations.csv')
+  f = open("../stations.csv")
   csv_f = csv.reader(f)
-  stn_locs = {}
+  geo_json = { "type": "FeatureCollection",
+  "features": [] }
   for row in csv_f:
-    station = f'{row[2]} {row[3]}'
+    station = f"{row[2]} {row[3]}"
     coord = [row[5], row[6]]
-    if station not in stn_locs:
-      stn_locs[station] = coord
-  return stn_locs
+    print(geo_json["features"])
+    if not any(stn["properties"]["STATION"] == station for stn in geo_json["features"]):
+      new_stn = {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": coord
+        },
+      "properties": {
+        "STATION": station,
+        }
+      }
+      geo_json["features"].append(new_stn)
+  return geo_json
 
 if __name__ == '__main__':
   f = open("../stations.json","w+")
