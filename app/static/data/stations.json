@@ -6,19 +6,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -74.164581,
-                    40.5446
-                ]
-            },
-            "properties": {
-                "STATION": "ELTINGVILLE PK Z"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -74.155533,
                     40.738879
                 ]
@@ -141,7 +128,7 @@
                 ]
             },
             "properties": {
-                "STATION": "BAY RIDGE AVE R"
+                "STATION": "BAY RIDGE AV R"
             }
         },
         {
@@ -154,7 +141,7 @@
                 ]
             },
             "properties": {
-                "STATION": "59 ST NR"
+                "STATION": "59 ST NRW"
             }
         },
         {
@@ -206,20 +193,7 @@
                 ]
             },
             "properties": {
-                "STATION": "RECTOR ST R"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -74.013273,
-                    40.704591
-                ]
-            },
-            "properties": {
-                "STATION": "2 BDWY CUST SRV 45"
+                "STATION": "RECTOR ST NRW"
             }
         },
         {
@@ -245,20 +219,7 @@
                 ]
             },
             "properties": {
-                "STATION": "8 AVE N"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -74.011324,
-                    40.710454
-                ]
-            },
-            "properties": {
-                "STATION": "CORTLANDT ST 1"
+                "STATION": "8 AV N"
             }
         },
         {
@@ -271,7 +232,7 @@
                 ]
             },
             "properties": {
-                "STATION": "CORTLANDT ST R"
+                "STATION": "CORTLANDT ST RNW"
             }
         },
         {
@@ -297,20 +258,7 @@
                 ]
             },
             "properties": {
-                "STATION": "PATH WTC 1"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -74.010708,
-                    40.711638
-                ]
-            },
-            "properties": {
-                "STATION": "PATH WTC 2 1"
+                "STATION": "PATH NEW WTC 1"
             }
         },
         {
@@ -336,7 +284,7 @@
                 ]
             },
             "properties": {
-                "STATION": "WORLD TRADE CTR 23ACE"
+                "STATION": "WORLD TRADE CTR ACE23"
             }
         },
         {
@@ -401,7 +349,7 @@
                 ]
             },
             "properties": {
-                "STATION": "FULTON ST ACJZ2345"
+                "STATION": "FULTON ST 2345ACJZ"
             }
         },
         {
@@ -414,20 +362,7 @@
                 ]
             },
             "properties": {
-                "STATION": "FULTON ST 2345ACJZ"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -74.007232,
-                    40.713086
-                ]
-            },
-            "properties": {
-                "STATION": "MURRAY ST-B'WAY R"
+                "STATION": "FULTON ST ACJZ2345"
             }
         },
         {
@@ -596,7 +531,7 @@
                 ]
             },
             "properties": {
-                "STATION": "8 AVE ACEL"
+                "STATION": "8 AV ACEL"
             }
         },
         {
@@ -622,7 +557,7 @@
                 ]
             },
             "properties": {
-                "STATION": "18 AVE D"
+                "STATION": "18 AV D"
             }
         },
         {
@@ -635,7 +570,7 @@
                 ]
             },
             "properties": {
-                "STATION": "CANAL ST JNQRZ6"
+                "STATION": "CANAL ST JNQRZ6W"
             }
         },
         {
@@ -687,7 +622,7 @@
                 ]
             },
             "properties": {
-                "STATION": "20 AVE D"
+                "STATION": "20 AV D"
             }
         },
         {
@@ -752,7 +687,7 @@
                 ]
             },
             "properties": {
-                "STATION": "PRINCE ST-B'WAY NR"
+                "STATION": "PRINCE ST NRW"
             }
         },
         {
@@ -778,7 +713,7 @@
                 ]
             },
             "properties": {
-                "STATION": "6 AVE FLM123"
+                "STATION": "6 AV FLM123"
             }
         },
         {
@@ -791,7 +726,7 @@
                 ]
             },
             "properties": {
-                "STATION": "14 ST-6 AVE FLM123"
+                "STATION": "14 ST FLM123"
             }
         },
         {
@@ -817,7 +752,7 @@
                 ]
             },
             "properties": {
-                "STATION": "NEW UTRECHT AVE ND"
+                "STATION": "NEW UTRECHT AV ND"
             }
         },
         {
@@ -830,7 +765,7 @@
                 ]
             },
             "properties": {
-                "STATION": "BROADWAY/LAFAY BDFQ6"
+                "STATION": "BWAY-LAFAYETTE BDFQ6"
             }
         },
         {
@@ -921,7 +856,7 @@
                 ]
             },
             "properties": {
-                "STATION": "9 AVE D"
+                "STATION": "9 AV D"
             }
         },
         {
@@ -973,7 +908,7 @@
                 ]
             },
             "properties": {
-                "STATION": "BAY PARKWAY D"
+                "STATION": "BAY PKWY D"
             }
         },
         {
@@ -987,6 +922,19 @@
             },
             "properties": {
                 "STATION": "34 ST-PENN STA ACE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.993456,
+                    40.752247
+                ]
+            },
+            "properties": {
+                "STATION": "34 ST-PENN STA 123ACE"
             }
         },
         {
@@ -1012,7 +960,7 @@
                 ]
             },
             "properties": {
-                "STATION": "34 ST-PENN STA 123ACE"
+                "STATION": "34 ST-PENN STA 123"
             }
         },
         {
@@ -1051,7 +999,7 @@
                 ]
             },
             "properties": {
-                "STATION": "PROSPECT AVE R"
+                "STATION": "PROSPECT AV R"
             }
         },
         {
@@ -1064,7 +1012,7 @@
                 ]
             },
             "properties": {
-                "STATION": "23 ST-6 AVE FM"
+                "STATION": "23 ST FM"
             }
         },
         {
@@ -1077,7 +1025,7 @@
                 ]
             },
             "properties": {
-                "STATION": "8 ST-B'WAY NYU NR"
+                "STATION": "8 ST-NYU NRW"
             }
         },
         {
@@ -1103,7 +1051,7 @@
                 ]
             },
             "properties": {
-                "STATION": "ASTOR PLACE 6"
+                "STATION": "ASTOR PL 6"
             }
         },
         {
@@ -1142,7 +1090,7 @@
                 ]
             },
             "properties": {
-                "STATION": "14 ST-UNION SQ 456LNQR"
+                "STATION": "14 ST-UNION SQ 456LNQRW"
             }
         },
         {
@@ -1155,7 +1103,7 @@
                 ]
             },
             "properties": {
-                "STATION": "14 ST-UNION SQ LNRQ456"
+                "STATION": "14 ST-UNION SQ LNQRW456"
             }
         },
         {
@@ -1181,7 +1129,7 @@
                 ]
             },
             "properties": {
-                "STATION": "18 AVE N"
+                "STATION": "18 AV N"
             }
         },
         {
@@ -1207,7 +1155,7 @@
                 ]
             },
             "properties": {
-                "STATION": "BOROUGH HALL/CT 2345R"
+                "STATION": "BOROUGH HALL 2345R"
             }
         },
         {
@@ -1220,7 +1168,7 @@
                 ]
             },
             "properties": {
-                "STATION": "BOROUGH HALL/CT R2345"
+                "STATION": "BOROUGH HALL R2345"
             }
         },
         {
@@ -1233,7 +1181,7 @@
                 ]
             },
             "properties": {
-                "STATION": "2 AVE F"
+                "STATION": "2 AV F"
             }
         },
         {
@@ -1246,7 +1194,7 @@
                 ]
             },
             "properties": {
-                "STATION": "42 ST-PA BUS TE ACENQRS1237"
+                "STATION": "42 ST-PORT AUTH ACENQRS1237W"
             }
         },
         {
@@ -1259,7 +1207,7 @@
                 ]
             },
             "properties": {
-                "STATION": "23 ST-5 AVE NR"
+                "STATION": "23 ST NRW"
             }
         },
         {
@@ -1285,7 +1233,7 @@
                 ]
             },
             "properties": {
-                "STATION": "4 AVE DFGMNR"
+                "STATION": "4 AV-9 ST DFGMNR"
             }
         },
         {
@@ -1298,7 +1246,7 @@
                 ]
             },
             "properties": {
-                "STATION": "28 ST-BROADWAY NR"
+                "STATION": "28 ST NRW"
             }
         },
         {
@@ -1324,7 +1272,7 @@
                 ]
             },
             "properties": {
-                "STATION": "34 ST-HERALD SQ BDFMNQR"
+                "STATION": "34 ST-HERALD SQ BDFMNQRW"
             }
         },
         {
@@ -1350,7 +1298,7 @@
                 ]
             },
             "properties": {
-                "STATION": "DELANCEY ST FJMZ"
+                "STATION": "DELANCEY-ESSEX FJMZ"
             }
         },
         {
@@ -1376,7 +1324,7 @@
                 ]
             },
             "properties": {
-                "STATION": "3 AVE L"
+                "STATION": "3 AV L"
             }
         },
         {
@@ -1389,7 +1337,7 @@
                 ]
             },
             "properties": {
-                "STATION": "25 AVE D"
+                "STATION": "25 AV D"
             }
         },
         {
@@ -1415,7 +1363,7 @@
                 ]
             },
             "properties": {
-                "STATION": "42 ST-TIMES SQ 1237ACENQRS"
+                "STATION": "TIMES SQ-42 ST 1237ACENQRS"
             }
         },
         {
@@ -1428,7 +1376,20 @@
                 ]
             },
             "properties": {
-                "STATION": "42 ST-TIMES SQ ACENQRS1237"
+                "STATION": "TIMES SQ-42 ST 1237ACENQRSW"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.986504,
+                    40.755905
+                ]
+            },
+            "properties": {
+                "STATION": "TIMES SQ-42 ST ACENQRS1237W"
             }
         },
         {
@@ -1480,7 +1441,7 @@
                 ]
             },
             "properties": {
-                "STATION": "HOYT/SCHERMER ACG"
+                "STATION": "HOYT-SCHER ACG"
             }
         },
         {
@@ -1493,7 +1454,7 @@
                 ]
             },
             "properties": {
-                "STATION": "20 AVE N"
+                "STATION": "20 AV N"
             }
         },
         {
@@ -1545,7 +1506,7 @@
                 ]
             },
             "properties": {
-                "STATION": "49 ST-7 AVE NQR"
+                "STATION": "49 ST NQRW"
             }
         },
         {
@@ -1610,7 +1571,7 @@
                 ]
             },
             "properties": {
-                "STATION": "BAY PKY-22 AVE N"
+                "STATION": "BAY PKWY N"
             }
         },
         {
@@ -1623,7 +1584,7 @@
                 ]
             },
             "properties": {
-                "STATION": "5 AVE-BRYANT PK 7BDFM"
+                "STATION": "5 AVE 7BDFM"
             }
         },
         {
@@ -1649,7 +1610,7 @@
                 ]
             },
             "properties": {
-                "STATION": "59 ST-COLUMBUS 1ABCD"
+                "STATION": "59 ST COLUMBUS 1ABCD"
             }
         },
         {
@@ -1662,7 +1623,7 @@
                 ]
             },
             "properties": {
-                "STATION": "59 ST-COLUMBUS ABCD1"
+                "STATION": "59 ST COLUMBUS ABCD1"
             }
         },
         {
@@ -1675,7 +1636,7 @@
                 ]
             },
             "properties": {
-                "STATION": "DEKALB AVE BDNQR"
+                "STATION": "DEKALB AV BDNQR"
             }
         },
         {
@@ -1701,7 +1662,7 @@
                 ]
             },
             "properties": {
-                "STATION": "1 AVE L"
+                "STATION": "1 AV L"
             }
         },
         {
@@ -1714,7 +1675,7 @@
                 ]
             },
             "properties": {
-                "STATION": "7 AVE-53 ST BDE"
+                "STATION": "7 AV BDE"
             }
         },
         {
@@ -1727,7 +1688,7 @@
                 ]
             },
             "properties": {
-                "STATION": "47-50 ST-ROCK BDFM"
+                "STATION": "47-50 STS ROCK BDFM"
             }
         },
         {
@@ -1740,7 +1701,7 @@
                 ]
             },
             "properties": {
-                "STATION": "STILLWELL AVE DFNQ"
+                "STATION": "CONEY IS-STILLW DFNQ"
             }
         },
         {
@@ -1753,7 +1714,7 @@
                 ]
             },
             "properties": {
-                "STATION": "KINGS HIGHWAY N"
+                "STATION": "KINGS HWY N"
             }
         },
         {
@@ -1766,7 +1727,7 @@
                 ]
             },
             "properties": {
-                "STATION": "57 ST-7 AVE NQR"
+                "STATION": "57 ST-7 AV NQRW"
             }
         },
         {
@@ -1818,7 +1779,7 @@
                 ]
             },
             "properties": {
-                "STATION": "CHURCH AVE FG"
+                "STATION": "CHURCH AV FG"
             }
         },
         {
@@ -1844,7 +1805,7 @@
                 ]
             },
             "properties": {
-                "STATION": "AVE U N"
+                "STATION": "AVENUE U N"
             }
         },
         {
@@ -1870,7 +1831,7 @@
                 ]
             },
             "properties": {
-                "STATION": "DITMAS AVE F"
+                "STATION": "DITMAS AV F"
             }
         },
         {
@@ -1896,7 +1857,7 @@
                 ]
             },
             "properties": {
-                "STATION": "ATLANTIC AVE 2345BDNQR"
+                "STATION": "ATL AV-BARCLAY 2345BDNQR"
             }
         },
         {
@@ -1909,7 +1870,7 @@
                 ]
             },
             "properties": {
-                "STATION": "ATLANTIC AVE BDNQR2345"
+                "STATION": "ATL AV-BARCLAY BDNQR2345"
             }
         },
         {
@@ -1935,7 +1896,7 @@
                 ]
             },
             "properties": {
-                "STATION": "18 AVE F"
+                "STATION": "18 AV F"
             }
         },
         {
@@ -1948,7 +1909,7 @@
                 ]
             },
             "properties": {
-                "STATION": "42 ST-GRD CNTRL 4567S"
+                "STATION": "GRD CNTRL-42 ST 4567S"
             }
         },
         {
@@ -2013,7 +1974,7 @@
                 ]
             },
             "properties": {
-                "STATION": "AVE I F"
+                "STATION": "AVENUE I F"
             }
         },
         {
@@ -2026,7 +1987,7 @@
                 ]
             },
             "properties": {
-                "STATION": "22 AVE-BAY PKY F"
+                "STATION": "BAY PKWY F"
             }
         },
         {
@@ -2052,7 +2013,7 @@
                 ]
             },
             "properties": {
-                "STATION": "5 AVE-53 ST EM"
+                "STATION": "5 AV-53 ST EM"
             }
         },
         {
@@ -2078,7 +2039,7 @@
                 ]
             },
             "properties": {
-                "STATION": "NEPTUNE AVE F"
+                "STATION": "NEPTUNE AV F"
             }
         },
         {
@@ -2091,7 +2052,7 @@
                 ]
             },
             "properties": {
-                "STATION": "AVE X F"
+                "STATION": "AVENUE X F"
             }
         },
         {
@@ -2104,7 +2065,7 @@
                 ]
             },
             "properties": {
-                "STATION": "AVE N F"
+                "STATION": "AVENUE N F"
             }
         },
         {
@@ -2117,7 +2078,7 @@
                 ]
             },
             "properties": {
-                "STATION": "LAFAYETTE AVE C"
+                "STATION": "LAFAYETTE AV C"
             }
         },
         {
@@ -2130,7 +2091,7 @@
                 ]
             },
             "properties": {
-                "STATION": "5 AVE-59 ST NQR"
+                "STATION": "5 AV/59 ST NQRW"
             }
         },
         {
@@ -2143,7 +2104,7 @@
                 ]
             },
             "properties": {
-                "STATION": "AVE U F"
+                "STATION": "AVENUE U F"
             }
         },
         {
@@ -2156,7 +2117,7 @@
                 ]
             },
             "properties": {
-                "STATION": "AVE P F"
+                "STATION": "AVENUE P F"
             }
         },
         {
@@ -2169,7 +2130,7 @@
                 ]
             },
             "properties": {
-                "STATION": "7 AVE BQ"
+                "STATION": "7 AV BQ"
             }
         },
         {
@@ -2195,7 +2156,7 @@
                 ]
             },
             "properties": {
-                "STATION": "KINGS HIGHWAY F"
+                "STATION": "KINGS HWY F"
             }
         },
         {
@@ -2247,7 +2208,7 @@
                 ]
             },
             "properties": {
-                "STATION": "LEXINGTON-53 ST EM6"
+                "STATION": "LEXINGTON AV/53 EM6"
             }
         },
         {
@@ -2273,7 +2234,7 @@
                 ]
             },
             "properties": {
-                "STATION": "OCEAN PARKWAY Q"
+                "STATION": "OCEAN PKWY Q"
             }
         },
         {
@@ -2312,7 +2273,20 @@
                 ]
             },
             "properties": {
-                "STATION": "59 ST 456NQR"
+                "STATION": "59 ST 456NQRW"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.967686,
+                    40.762796
+                ]
+            },
+            "properties": {
+                "STATION": "59 ST NQR456W"
             }
         },
         {
@@ -2338,7 +2312,7 @@
                 ]
             },
             "properties": {
-                "STATION": "110 ST-CATHEDRL 1"
+                "STATION": "CATHEDRAL PKWY 1"
             }
         },
         {
@@ -2351,7 +2325,7 @@
                 ]
             },
             "properties": {
-                "STATION": "LEXINGTON AVE F"
+                "STATION": "LEXINGTON AV/63 F"
             }
         },
         {
@@ -2403,7 +2377,7 @@
                 ]
             },
             "properties": {
-                "STATION": "EASTERN PKWY 23"
+                "STATION": "EASTN PKWY-MUSM 23"
             }
         },
         {
@@ -2429,7 +2403,7 @@
                 ]
             },
             "properties": {
-                "STATION": "68ST-HUNTER COL 6"
+                "STATION": "68ST-HUNTER CO 6"
             }
         },
         {
@@ -2455,7 +2429,7 @@
                 ]
             },
             "properties": {
-                "STATION": "CORTELYOU ROAD BQ"
+                "STATION": "CORTELYOU RD BQ"
             }
         },
         {
@@ -2468,7 +2442,7 @@
                 ]
             },
             "properties": {
-                "STATION": "CHURCH AVE BQ"
+                "STATION": "CHURCH AV BQ"
             }
         },
         {
@@ -2481,7 +2455,7 @@
                 ]
             },
             "properties": {
-                "STATION": "NEWKIRK AVE BQ"
+                "STATION": "NEWKIRK PLAZA BQ"
             }
         },
         {
@@ -2520,7 +2494,7 @@
                 ]
             },
             "properties": {
-                "STATION": "AVE H BQ"
+                "STATION": "AVENUE H BQ"
             }
         },
         {
@@ -2546,7 +2520,7 @@
                 ]
             },
             "properties": {
-                "STATION": "PARKSIDE AVE BQ"
+                "STATION": "PARKSIDE AV BQ"
             }
         },
         {
@@ -2559,7 +2533,7 @@
                 ]
             },
             "properties": {
-                "STATION": "AVE J BQ"
+                "STATION": "AVENUE J BQ"
             }
         },
         {
@@ -2572,7 +2546,7 @@
                 ]
             },
             "properties": {
-                "STATION": "CLASSON AVE G"
+                "STATION": "CLASSON AV G"
             }
         },
         {
@@ -2598,7 +2572,7 @@
                 ]
             },
             "properties": {
-                "STATION": "AVE M BQ"
+                "STATION": "AVENUE M BQ"
             }
         },
         {
@@ -2637,7 +2611,7 @@
                 ]
             },
             "properties": {
-                "STATION": "CATHEDRL-110 ST BC"
+                "STATION": "CATHEDRAL PKWY BC"
             }
         },
         {
@@ -2650,7 +2624,7 @@
                 ]
             },
             "properties": {
-                "STATION": "FRANKLIN AVE 2345S"
+                "STATION": "FRANKLIN AV 2345S"
             }
         },
         {
@@ -2676,7 +2650,7 @@
                 ]
             },
             "properties": {
-                "STATION": "KINGS HIGHWAY BQ"
+                "STATION": "KINGS HWY BQ"
             }
         },
         {
@@ -2689,7 +2663,7 @@
                 ]
             },
             "properties": {
-                "STATION": "MARCY AVE JMZ"
+                "STATION": "MARCY AV JMZ"
             }
         },
         {
@@ -2702,7 +2676,7 @@
                 ]
             },
             "properties": {
-                "STATION": "BEDFORD AVE L"
+                "STATION": "BEDFORD AV L"
             }
         },
         {
@@ -2715,7 +2689,7 @@
                 ]
             },
             "properties": {
-                "STATION": "FRANKLIN AVE ACS"
+                "STATION": "FRANKLIN AV ACS"
             }
         },
         {
@@ -2728,7 +2702,7 @@
                 ]
             },
             "properties": {
-                "STATION": "AVE U BQ"
+                "STATION": "AVENUE U BQ"
             }
         },
         {
@@ -2754,7 +2728,7 @@
                 ]
             },
             "properties": {
-                "STATION": "NECK ROAD BQ"
+                "STATION": "NECK RD BQ"
             }
         },
         {
@@ -2780,7 +2754,7 @@
                 ]
             },
             "properties": {
-                "STATION": "GREENPOINT AVE G"
+                "STATION": "GREENPOINT AV G"
             }
         },
         {
@@ -2819,7 +2793,7 @@
                 ]
             },
             "properties": {
-                "STATION": "137 ST-CITY COL 1"
+                "STATION": "137 ST CITY COL 1"
             }
         },
         {
@@ -2832,7 +2806,7 @@
                 ]
             },
             "properties": {
-                "STATION": "VERNON/JACKSON 7"
+                "STATION": "VERNON-JACKSON 7"
             }
         },
         {
@@ -2858,7 +2832,7 @@
                 ]
             },
             "properties": {
-                "STATION": "BEDFORD/NOSTRAN G"
+                "STATION": "BEDFORD-NOSTRAN G"
             }
         },
         {
@@ -2871,7 +2845,7 @@
                 ]
             },
             "properties": {
-                "STATION": "ROOSEVELT IS F"
+                "STATION": "ROOSEVELT ISLND F"
             }
         },
         {
@@ -2897,7 +2871,7 @@
                 ]
             },
             "properties": {
-                "STATION": "110 ST-CPN 23"
+                "STATION": "CENTRAL PK N110 23"
             }
         },
         {
@@ -2910,7 +2884,7 @@
                 ]
             },
             "properties": {
-                "STATION": "LORIMER ST GL"
+                "STATION": "LORIMER ST LG"
             }
         },
         {
@@ -2988,7 +2962,7 @@
                 ]
             },
             "properties": {
-                "STATION": "NOSTRAND AVE 3"
+                "STATION": "NOSTRAND AV 3"
             }
         },
         {
@@ -3027,7 +3001,7 @@
                 ]
             },
             "properties": {
-                "STATION": "NOSTRAND AVE AC"
+                "STATION": "NOSTRAND AV AC"
             }
         },
         {
@@ -3040,7 +3014,7 @@
                 ]
             },
             "properties": {
-                "STATION": "FLUSHING AVE G"
+                "STATION": "FLUSHING AV G"
             }
         },
         {
@@ -3092,7 +3066,7 @@
                 ]
             },
             "properties": {
-                "STATION": "CHURCH AVE 25"
+                "STATION": "CHURCH AV 25"
             }
         },
         {
@@ -3118,7 +3092,7 @@
                 ]
             },
             "properties": {
-                "STATION": "BEVERLY ROAD 25"
+                "STATION": "BEVERLY RD 25"
             }
         },
         {
@@ -3131,7 +3105,7 @@
                 ]
             },
             "properties": {
-                "STATION": "HUNTERS PT AVE 7"
+                "STATION": "HUNTERS PT AV 7"
             }
         },
         {
@@ -3144,7 +3118,7 @@
                 ]
             },
             "properties": {
-                "STATION": "NEWKIRK AVE 25"
+                "STATION": "NEWKIRK AV 25"
             }
         },
         {
@@ -3170,7 +3144,7 @@
                 ]
             },
             "properties": {
-                "STATION": "FLATBUSH AVE 25"
+                "STATION": "FLATBUSH AV 25"
             }
         },
         {
@@ -3300,7 +3274,7 @@
                 ]
             },
             "properties": {
-                "STATION": "GRAHAM AVE L"
+                "STATION": "GRAHAM AV L"
             }
         },
         {
@@ -3313,7 +3287,7 @@
                 ]
             },
             "properties": {
-                "STATION": "21 ST F"
+                "STATION": "21 ST-QNSBRIDGE F"
             }
         },
         {
@@ -3326,7 +3300,7 @@
                 ]
             },
             "properties": {
-                "STATION": "KINGSTON AVE 3"
+                "STATION": "KINGSTON AV 3"
             }
         },
         {
@@ -3339,7 +3313,7 @@
                 ]
             },
             "properties": {
-                "STATION": "FLUSHING AVE JM"
+                "STATION": "FLUSHING AV JM"
             }
         },
         {
@@ -3417,7 +3391,7 @@
                 ]
             },
             "properties": {
-                "STATION": "QUEENSBORO PLZ 7NQ"
+                "STATION": "QUEENSBORO PLZ 7NQW"
             }
         },
         {
@@ -3430,7 +3404,7 @@
                 ]
             },
             "properties": {
-                "STATION": "168 ST-BROADWAY 1AC"
+                "STATION": "168 ST 1AC"
             }
         },
         {
@@ -3443,7 +3417,7 @@
                 ]
             },
             "properties": {
-                "STATION": "168 ST-BROADWAY AC1"
+                "STATION": "168 ST AC1"
             }
         },
         {
@@ -3456,7 +3430,7 @@
                 ]
             },
             "properties": {
-                "STATION": "MONTROSE AVE L"
+                "STATION": "MONTROSE AV L"
             }
         },
         {
@@ -3547,7 +3521,7 @@
                 ]
             },
             "properties": {
-                "STATION": "148 ST-LENOX 3"
+                "STATION": "HARLEM 148 ST 3"
             }
         },
         {
@@ -3573,7 +3547,7 @@
                 ]
             },
             "properties": {
-                "STATION": "MYRTLE AVE JMZ"
+                "STATION": "MYRTLE AV JMZ"
             }
         },
         {
@@ -3612,7 +3586,7 @@
                 ]
             },
             "properties": {
-                "STATION": "MORGAN AVE L"
+                "STATION": "MORGAN AV L"
             }
         },
         {
@@ -3638,7 +3612,7 @@
                 ]
             },
             "properties": {
-                "STATION": "BEEBE-39 AVE NQ"
+                "STATION": "39 AV NQW"
             }
         },
         {
@@ -3651,7 +3625,7 @@
                 ]
             },
             "properties": {
-                "STATION": "33 ST/RAWSON ST 7"
+                "STATION": "33 ST-RAWSON ST 7"
             }
         },
         {
@@ -3664,7 +3638,7 @@
                 ]
             },
             "properties": {
-                "STATION": "UTICA AVE AC"
+                "STATION": "UTICA AV AC"
             }
         },
         {
@@ -3677,7 +3651,7 @@
                 ]
             },
             "properties": {
-                "STATION": "138 ST-GR CONC 45"
+                "STATION": "138 GRAND CONC 45"
             }
         },
         {
@@ -3755,7 +3729,7 @@
                 ]
             },
             "properties": {
-                "STATION": "DYCKMAN-200 ST A"
+                "STATION": "DYCKMAN ST A"
             }
         },
         {
@@ -3768,7 +3742,7 @@
                 ]
             },
             "properties": {
-                "STATION": "149 ST-GR CONC 245"
+                "STATION": "149 GRAND CONC 245"
             }
         },
         {
@@ -3781,7 +3755,7 @@
                 ]
             },
             "properties": {
-                "STATION": "138 ST-3 AVE 6"
+                "STATION": "3 AV 138 ST 6"
             }
         },
         {
@@ -3794,7 +3768,7 @@
                 ]
             },
             "properties": {
-                "STATION": "161 ST-YANKEE BD4"
+                "STATION": "161 ST YANKEE BD4"
             }
         },
         {
@@ -3807,7 +3781,7 @@
                 ]
             },
             "properties": {
-                "STATION": "161 ST-YANKEE 4BD"
+                "STATION": "161 ST YANKEE 4BD"
             }
         },
         {
@@ -3833,7 +3807,7 @@
                 ]
             },
             "properties": {
-                "STATION": "BROADWAY-31 ST NQ"
+                "STATION": "BROADWAY NQW"
             }
         },
         {
@@ -3846,7 +3820,7 @@
                 ]
             },
             "properties": {
-                "STATION": "40 ST-LOWERY ST 7"
+                "STATION": "40 ST LOWERY ST 7"
             }
         },
         {
@@ -3872,7 +3846,7 @@
                 ]
             },
             "properties": {
-                "STATION": "SUTTER AVE 3"
+                "STATION": "SUTTER AV-RUTLD 3"
             }
         },
         {
@@ -3885,7 +3859,7 @@
                 ]
             },
             "properties": {
-                "STATION": "GATES AVE JZ"
+                "STATION": "GATES AV JZ"
             }
         },
         {
@@ -3924,7 +3898,7 @@
                 ]
             },
             "properties": {
-                "STATION": "RALPH AVE C"
+                "STATION": "RALPH AV C"
             }
         },
         {
@@ -3976,7 +3950,7 @@
                 ]
             },
             "properties": {
-                "STATION": "BROOK AVE 6"
+                "STATION": "BROOK AV 6"
             }
         },
         {
@@ -4002,7 +3976,7 @@
                 ]
             },
             "properties": {
-                "STATION": "DEKALB AVE L"
+                "STATION": "DEKALB AV L"
             }
         },
         {
@@ -4028,7 +4002,7 @@
                 ]
             },
             "properties": {
-                "STATION": "46 ST-BLISS ST 7"
+                "STATION": "46 ST BLISS ST 7"
             }
         },
         {
@@ -4054,7 +4028,7 @@
                 ]
             },
             "properties": {
-                "STATION": "149 ST-3 AVE 25"
+                "STATION": "3 AV-149 ST 25"
             }
         },
         {
@@ -4067,7 +4041,7 @@
                 ]
             },
             "properties": {
-                "STATION": "HOYT ST-ASTORIA NQ"
+                "STATION": "ASTORIA BLVD NQW"
             }
         },
         {
@@ -4093,7 +4067,7 @@
                 ]
             },
             "properties": {
-                "STATION": "SARATOGA AVE 3"
+                "STATION": "SARATOGA AV 3"
             }
         },
         {
@@ -4119,7 +4093,7 @@
                 ]
             },
             "properties": {
-                "STATION": "MT EDEN AVE 4"
+                "STATION": "MT EDEN AV 4"
             }
         },
         {
@@ -4132,7 +4106,7 @@
                 ]
             },
             "properties": {
-                "STATION": "CYPRESS AVE 6"
+                "STATION": "CYPRESS AV 6"
             }
         },
         {
@@ -4184,7 +4158,7 @@
                 ]
             },
             "properties": {
-                "STATION": "52 ST-LINCOLN 7"
+                "STATION": "52 ST 7"
             }
         },
         {
@@ -4197,7 +4171,7 @@
                 ]
             },
             "properties": {
-                "STATION": "DITMARS BL-31 S NQ"
+                "STATION": "ASTORIA DITMARS NQW"
             }
         },
         {
@@ -4210,7 +4184,7 @@
                 ]
             },
             "properties": {
-                "STATION": "ROCKAWAY AVE C"
+                "STATION": "ROCKAWAY AV C"
             }
         },
         {
@@ -4223,7 +4197,7 @@
                 ]
             },
             "properties": {
-                "STATION": "MYRTLE AVE LM"
+                "STATION": "MYRTLE-WYCKOFF LM"
             }
         },
         {
@@ -4262,7 +4236,7 @@
                 ]
             },
             "properties": {
-                "STATION": "ROCKAWAY AVE 3"
+                "STATION": "ROCKAWAY AV 3"
             }
         },
         {
@@ -4275,7 +4249,7 @@
                 ]
             },
             "properties": {
-                "STATION": "JACKSON AVE 25"
+                "STATION": "JACKSON AV 25"
             }
         },
         {
@@ -4301,7 +4275,7 @@
                 ]
             },
             "properties": {
-                "STATION": "BURNSIDE AVE 4"
+                "STATION": "BURNSIDE AV 4"
             }
         },
         {
@@ -4340,7 +4314,7 @@
                 ]
             },
             "properties": {
-                "STATION": "BUSHWICK AVE L"
+                "STATION": "BUSHWICK AV L"
             }
         },
         {
@@ -4353,7 +4327,7 @@
                 ]
             },
             "properties": {
-                "STATION": "TREMONT AVE BD"
+                "STATION": "TREMONT AV BD"
             }
         },
         {
@@ -4379,7 +4353,7 @@
                 ]
             },
             "properties": {
-                "STATION": "BROADWAY-ENY ACJLZ"
+                "STATION": "BROADWAY JCT ACJLZ"
             }
         },
         {
@@ -4418,7 +4392,7 @@
                 ]
             },
             "properties": {
-                "STATION": "WILSON AVE L"
+                "STATION": "WILSON AV L"
             }
         },
         {
@@ -4457,7 +4431,7 @@
                 ]
             },
             "properties": {
-                "STATION": "61 ST/WOODSIDE 7"
+                "STATION": "61 ST WOODSIDE 7"
             }
         },
         {
@@ -4470,7 +4444,7 @@
                 ]
             },
             "properties": {
-                "STATION": "ATLANTIC AVE L"
+                "STATION": "ATLANTIC AV L"
             }
         },
         {
@@ -4496,7 +4470,7 @@
                 ]
             },
             "properties": {
-                "STATION": "SUTTER AVE L"
+                "STATION": "SUTTER AV L"
             }
         },
         {
@@ -4509,7 +4483,7 @@
                 ]
             },
             "properties": {
-                "STATION": "ROCKAWAY PKY L"
+                "STATION": "CANARSIE-ROCKAW L"
             }
         },
         {
@@ -4522,7 +4496,7 @@
                 ]
             },
             "properties": {
-                "STATION": "PROSPECT AVE 25"
+                "STATION": "PROSPECT AV 25"
             }
         },
         {
@@ -4535,7 +4509,7 @@
                 ]
             },
             "properties": {
-                "STATION": "FORDHAM ROAD 4"
+                "STATION": "FORDHAM RD 4"
             }
         },
         {
@@ -4548,7 +4522,7 @@
                 ]
             },
             "properties": {
-                "STATION": "FORDHAM ROAD BD"
+                "STATION": "FORDHAM RD BD"
             }
         },
         {
@@ -4574,7 +4548,7 @@
                 ]
             },
             "properties": {
-                "STATION": "182-183 ST BD"
+                "STATION": "182-183 STS BD"
             }
         },
         {
@@ -4587,7 +4561,7 @@
                 ]
             },
             "properties": {
-                "STATION": "LIVONIA AVE L"
+                "STATION": "LIVONIA AV L"
             }
         },
         {
@@ -4613,7 +4587,7 @@
                 ]
             },
             "properties": {
-                "STATION": "NEW LOTS AVE L"
+                "STATION": "NEW LOTS L"
             }
         },
         {
@@ -4626,7 +4600,7 @@
                 ]
             },
             "properties": {
-                "STATION": "ALABAMA AVE J"
+                "STATION": "ALABAMA AV J"
             }
         },
         {
@@ -4639,7 +4613,7 @@
                 ]
             },
             "properties": {
-                "STATION": "242 ST 1"
+                "STATION": "V.CORTLANDT PK 1"
             }
         },
         {
@@ -4678,7 +4652,7 @@
                 ]
             },
             "properties": {
-                "STATION": "INTERVALE-163 25"
+                "STATION": "INTERVALE AV 25"
             }
         },
         {
@@ -4691,7 +4665,7 @@
                 ]
             },
             "properties": {
-                "STATION": "LIBERTY AVE C"
+                "STATION": "LIBERTY AV C"
             }
         },
         {
@@ -4704,7 +4678,7 @@
                 ]
             },
             "properties": {
-                "STATION": "69 ST-FISK AVE 7"
+                "STATION": "69 ST 7"
             }
         },
         {
@@ -4717,7 +4691,7 @@
                 ]
             },
             "properties": {
-                "STATION": "LONGWOOD AVE 6"
+                "STATION": "LONGWOOD AV 6"
             }
         },
         {
@@ -4730,7 +4704,7 @@
                 ]
             },
             "properties": {
-                "STATION": "FRESH POND ROAD M"
+                "STATION": "FRESH POND RD M"
             }
         },
         {
@@ -4795,7 +4769,7 @@
                 ]
             },
             "properties": {
-                "STATION": "VAN SICLEN AVE JZ"
+                "STATION": "VAN SICLEN AV JZ"
             }
         },
         {
@@ -4808,7 +4782,7 @@
                 ]
             },
             "properties": {
-                "STATION": "ROOSEVELT AVE EFMR7"
+                "STATION": "JKSN HT-ROOSVLT EFMR7"
             }
         },
         {
@@ -4821,7 +4795,7 @@
                 ]
             },
             "properties": {
-                "STATION": "74 ST-BROADWAY EFMR7"
+                "STATION": "74 ST-BROADWAY 7EFMR"
             }
         },
         {
@@ -4834,7 +4808,7 @@
                 ]
             },
             "properties": {
-                "STATION": "HUNTS POINT AVE 6"
+                "STATION": "HUNTS POINT AV 6"
             }
         },
         {
@@ -4860,7 +4834,7 @@
                 ]
             },
             "properties": {
-                "STATION": "BEDFORD PARK BL 4"
+                "STATION": "BEDFORD PK BLVD 4"
             }
         },
         {
@@ -4886,7 +4860,7 @@
                 ]
             },
             "properties": {
-                "STATION": "VAN SICLEN AVE 3"
+                "STATION": "VAN SICLEN AV 3"
             }
         },
         {
@@ -4912,7 +4886,7 @@
                 ]
             },
             "properties": {
-                "STATION": "BEDFORD PARK BL BD"
+                "STATION": "BEDFORD PK BLVD BD"
             }
         },
         {
@@ -4925,7 +4899,7 @@
                 ]
             },
             "properties": {
-                "STATION": "WHITLOCK AVE 6"
+                "STATION": "WHITLOCK AV 6"
             }
         },
         {
@@ -4951,7 +4925,7 @@
                 ]
             },
             "properties": {
-                "STATION": "MOSHOLU PARKWAY 4"
+                "STATION": "MOSHOLU PKWY 4"
             }
         },
         {
@@ -4964,7 +4938,7 @@
                 ]
             },
             "properties": {
-                "STATION": "NEW LOTS AVE 3"
+                "STATION": "NEW LOTS AV 3"
             }
         },
         {
@@ -4990,7 +4964,7 @@
                 ]
             },
             "properties": {
-                "STATION": "ELMHURST AVE MR"
+                "STATION": "ELMHURST AV MR"
             }
         },
         {
@@ -5003,7 +4977,7 @@
                 ]
             },
             "properties": {
-                "STATION": "SHEPHERD AVE C"
+                "STATION": "SHEPHERD AV C"
             }
         },
         {
@@ -5016,7 +4990,7 @@
                 ]
             },
             "properties": {
-                "STATION": "NORWOOD AVE JZ"
+                "STATION": "NORWOOD AV JZ"
             }
         },
         {
@@ -5029,7 +5003,7 @@
                 ]
             },
             "properties": {
-                "STATION": "E TREMONT AVE 25"
+                "STATION": "WEST FARMS SQ 25"
             }
         },
         {
@@ -5042,7 +5016,7 @@
                 ]
             },
             "properties": {
-                "STATION": "ELDER AVE 6"
+                "STATION": "ELDER AV 6"
             }
         },
         {
@@ -5055,7 +5029,7 @@
                 ]
             },
             "properties": {
-                "STATION": "NORWOOD-205 ST D"
+                "STATION": "NORWOOD 205 ST D"
             }
         },
         {
@@ -5068,7 +5042,7 @@
                 ]
             },
             "properties": {
-                "STATION": "WOODLAWN ROAD 4"
+                "STATION": "WOODLAWN 4"
             }
         },
         {
@@ -5081,7 +5055,7 @@
                 ]
             },
             "properties": {
-                "STATION": "GRAND AV-NEWTON MR"
+                "STATION": "GRAND-NEWTOWN MR"
             }
         },
         {
@@ -5107,7 +5081,7 @@
                 ]
             },
             "properties": {
-                "STATION": "MORRISON AVE 6"
+                "STATION": "MORISN AV/SNDVW 6"
             }
         },
         {
@@ -5159,7 +5133,7 @@
                 ]
             },
             "properties": {
-                "STATION": "EUCLID AVE AC"
+                "STATION": "EUCLID AV AC"
             }
         },
         {
@@ -5224,7 +5198,7 @@
                 ]
             },
             "properties": {
-                "STATION": "ST LAWRENCE AVE 6"
+                "STATION": "ST LAWRENCE AV 6"
             }
         },
         {
@@ -5237,7 +5211,7 @@
                 ]
             },
             "properties": {
-                "STATION": "PELHAM PARKWAY 25"
+                "STATION": "PELHAM PKWY 25"
             }
         },
         {
@@ -5250,7 +5224,7 @@
                 ]
             },
             "properties": {
-                "STATION": "ALLERTON AVE 25"
+                "STATION": "ALLERTON AV 25"
             }
         },
         {
@@ -5263,7 +5237,7 @@
                 ]
             },
             "properties": {
-                "STATION": "ELDERTS LANE JZ"
+                "STATION": "75 ST-ELDERTS JZ"
             }
         },
         {
@@ -5276,7 +5250,7 @@
                 ]
             },
             "properties": {
-                "STATION": "BURKE AVE 25"
+                "STATION": "BURKE AV 25"
             }
         },
         {
@@ -5289,7 +5263,7 @@
                 ]
             },
             "properties": {
-                "STATION": "GUN HILL ROAD 5"
+                "STATION": "GUN HILL RD 5"
             }
         },
         {
@@ -5302,7 +5276,7 @@
                 ]
             },
             "properties": {
-                "STATION": "GUN HILL ROAD 25"
+                "STATION": "GUN HILL RD 25"
             }
         },
         {
@@ -5315,7 +5289,7 @@
                 ]
             },
             "properties": {
-                "STATION": "GRANT AVE A"
+                "STATION": "GRANT AV A"
             }
         },
         {
@@ -5380,7 +5354,7 @@
                 ]
             },
             "properties": {
-                "STATION": "E 177 ST-PARKCH 6"
+                "STATION": "PARKCHESTER 6"
             }
         },
         {
@@ -5406,7 +5380,7 @@
                 ]
             },
             "properties": {
-                "STATION": "FOREST PARKWAY J"
+                "STATION": "85 ST-FOREST PK J"
             }
         },
         {
@@ -5419,7 +5393,7 @@
                 ]
             },
             "properties": {
-                "STATION": "HUDSON-80 ST A"
+                "STATION": "80 ST A"
             }
         },
         {
@@ -5445,7 +5419,7 @@
                 ]
             },
             "properties": {
-                "STATION": "PELHAM PARKWAY 5"
+                "STATION": "PELHAM PKWY 5"
             }
         },
         {
@@ -5471,7 +5445,7 @@
                 ]
             },
             "properties": {
-                "STATION": "NEREID AVE 25"
+                "STATION": "NEREID AV 25"
             }
         },
         {
@@ -5484,7 +5458,7 @@
                 ]
             },
             "properties": {
-                "STATION": "67 AVE MR"
+                "STATION": "67 AV MR"
             }
         },
         {
@@ -5510,7 +5484,7 @@
                 ]
             },
             "properties": {
-                "STATION": "BOYD-88 ST A"
+                "STATION": "88 ST A"
             }
         },
         {
@@ -5523,7 +5497,7 @@
                 ]
             },
             "properties": {
-                "STATION": "CASTLE HILL AVE 6"
+                "STATION": "CASTLE HILL AV 6"
             }
         },
         {
@@ -5536,7 +5510,7 @@
                 ]
             },
             "properties": {
-                "STATION": "WAKEFIELD-241 2"
+                "STATION": "WAKEFIELD/241 2"
             }
         },
         {
@@ -5549,7 +5523,7 @@
                 ]
             },
             "properties": {
-                "STATION": "ZEREGA AVE 6"
+                "STATION": "ZEREGA AV 6"
             }
         },
         {
@@ -5575,7 +5549,7 @@
                 ]
             },
             "properties": {
-                "STATION": "FOREST HILLS-71 EFMR"
+                "STATION": "FOREST HILLS 71 EFMR"
             }
         },
         {
@@ -5627,7 +5601,7 @@
                 ]
             },
             "properties": {
-                "STATION": "BAYCHESTER AVE 5"
+                "STATION": "BAYCHESTER AV 5"
             }
         },
         {
@@ -5640,7 +5614,7 @@
                 ]
             },
             "properties": {
-                "STATION": "OXFORD-104 ST A"
+                "STATION": "104 ST A"
             }
         },
         {
@@ -5653,7 +5627,7 @@
                 ]
             },
             "properties": {
-                "STATION": "ROCKAWAY PK 116 AS"
+                "STATION": "ROCKAWAY PARK B AS"
             }
         },
         {
@@ -5666,7 +5640,7 @@
                 ]
             },
             "properties": {
-                "STATION": "75 AVE EF"
+                "STATION": "75 AV EF"
             }
         },
         {
@@ -5679,7 +5653,7 @@
                 ]
             },
             "properties": {
-                "STATION": "MIDDLETOWN ROAD 6"
+                "STATION": "MIDDLETOWN RD 6"
             }
         },
         {
@@ -5705,7 +5679,7 @@
                 ]
             },
             "properties": {
-                "STATION": "AQUEDUCT-N CNDT A"
+                "STATION": "AQUEDUCT NCOND A"
             }
         },
         {
@@ -5718,7 +5692,7 @@
                 ]
             },
             "properties": {
-                "STATION": "AQUEDUCT TRACK A"
+                "STATION": "AQUEDUCT RACETR A"
             }
         },
         {
@@ -5731,7 +5705,7 @@
                 ]
             },
             "properties": {
-                "STATION": "BUHRE AVE 6"
+                "STATION": "BUHRE AV 6"
             }
         },
         {
@@ -5744,7 +5718,7 @@
                 ]
             },
             "properties": {
-                "STATION": "GREENWOOD-111 A"
+                "STATION": "111 ST A"
             }
         },
         {
@@ -5757,7 +5731,7 @@
                 ]
             },
             "properties": {
-                "STATION": "UNION TPK-KEW G EF"
+                "STATION": "KEW GARDENS EF"
             }
         },
         {
@@ -5770,7 +5744,7 @@
                 ]
             },
             "properties": {
-                "STATION": "DYRE AVE 5"
+                "STATION": "EASTCHSTER-DYRE 5"
             }
         },
         {
@@ -5783,7 +5757,7 @@
                 ]
             },
             "properties": {
-                "STATION": "HOWARD BCH-JFK A"
+                "STATION": "HOWARD BCH JFK A"
             }
         },
         {
@@ -5809,7 +5783,7 @@
                 ]
             },
             "properties": {
-                "STATION": "MAIN ST 7"
+                "STATION": "FLUSHING-MAIN 7"
             }
         },
         {
@@ -5874,7 +5848,7 @@
                 ]
             },
             "properties": {
-                "STATION": "LEFFERTS BLVD A"
+                "STATION": "OZONE PK LEFFRT A"
             }
         },
         {
@@ -5887,7 +5861,7 @@
                 ]
             },
             "properties": {
-                "STATION": "VAN WYCK BLVD EF"
+                "STATION": "BRIARWOOD EF"
             }
         },
         {
@@ -5913,7 +5887,7 @@
                 ]
             },
             "properties": {
-                "STATION": "JAMAICA-VAN WYC E"
+                "STATION": "JAMAICA VAN WK E"
             }
         },
         {
@@ -5965,7 +5939,7 @@
                 ]
             },
             "properties": {
-                "STATION": "SUTPHIN BLVD EJZ"
+                "STATION": "SUTPHIN-ARCHER EJZ"
             }
         },
         {
@@ -6043,7 +6017,7 @@
                 ]
             },
             "properties": {
-                "STATION": "JAMAICA-179 ST F"
+                "STATION": "JAMAICA 179 ST F"
             }
         },
         {
@@ -6134,7 +6108,7 @@
                 ]
             },
             "properties": {
-                "STATION": "174-175 ST BD"
+                "STATION": "174-175 STS BD"
             }
         },
         {
@@ -6147,7 +6121,7 @@
                 ]
             },
             "properties": {
-                "STATION": "WHITEHALL ST R1"
+                "STATION": "WHITEHALL S-FRY R1W"
             }
         },
         {
@@ -6160,7 +6134,98 @@
                 ]
             },
             "properties": {
-                "STATION": "SOUTH FERRY R1"
+                "STATION": "SOUTH FERRY 1RW"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.948674,
+                    40.744591
+                ]
+            },
+            "properties": {
+                "STATION": "21 ST G"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.0010,
+                    40.7550
+                ]
+            },
+            "properties": {
+                "STATION": "34 ST-HUDSON YD 7"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.9584,
+                    40.7687
+                ]
+            },
+            "properties": {
+                "STATION": "72 ST-2 AVE Q"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.9515,
+                    40.7779
+                ]
+            },
+            "properties": {
+                "STATION": "86 ST-2 AVE Q"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.9472,
+                    40.7841
+                ]
+            },
+            "properties": {
+                "STATION": "96 ST-2 AVE Q"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.007082,
+                    40.71324
+                ]
+            },
+            "properties": {
+                "STATION": "CITY HALL NRW"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.010708,
+                    40.711638
+                ]
+            },
+            "properties": {
+                "STATION": "PATH WTC 2 1"
             }
         }
     ]

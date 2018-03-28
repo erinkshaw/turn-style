@@ -52,16 +52,19 @@ const mtaPantoneClassNames = {
 
 let stations = {}
 
+let data = []
+
 fetch('/data/stations')
   .then(blob => blob.json())
   .then(geoStns => {
     stations = geoStns
+
     stations.features.forEach(function(marker) {
       const station = marker.properties.STATION.slice(-1)
       const color = mtaPantoneClassNames[station]
       var el = document.createElement('div')
       el.className = `marker ${color}`
-      el.id = marker.properties.STATION
+      el.id = marker.properties.STATION.split(' ').join('')
       el.style.backgroundColor = mtaPantone[station]
 
       new mapboxgl.Marker(el)
@@ -69,11 +72,46 @@ fetch('/data/stations')
       .addTo(map)
     })
   })
-
+  const missing = {}
 fetch('/data/data_by_date')
   .then(blob => blob.json())
-  .then(console.log)
+  .then(turnstileData => {
 
+    data = turnstileData
+    const dates = Object.keys(data)
+    console.log(dates.length, 'DATE LENGTH')
+    function next(counter, maxLoops) {
+      // break if maxLoops has been reached
+      if (counter++ === maxLoops) return;
+
+      const dateDiv = document.querySelector('#date-time')
+      const makeDate = new Date(dates[counter])
+      const date = dates[counter]
+      dateDiv.textContent = `${makeDate.toString().slice(0, -15)}`
+
+
+      data[date].forEach(stn => {
+        const stnEl = document.getElementById(`${stn.STATION.split(' ').join('')}${stn.LINENAME}`)
+        if (!stnEl) {
+          console.count(`${stn.STATION}${stn.LINENAME}`)
+          if (!missing[`${stn.STATION}${stn.LINENAME}`]) {
+            missing[`${stn.STATION}${stn.LINENAME}`] = `${stn.STATION}${stn.LINENAME}`
+          }
+          // stnEl.style.height = '100px'
+          // stnEl.style.width = '100px'
+        }
+        console.log(missing)
+      })
+
+
+      setTimeout(function() {
+          next(counter, maxLoops);
+      }, 1);
+      }
+      next(0, dates.length);
+
+  })
+  console.log(missing)
 const mapAccessToken = 'pk.eyJ1IjoiZXJpbmtzaGF3IiwiYSI6ImNqZTNlZ3ZqcjY3YmoycXFwMjR1bGNzZnYifQ.qoC7ahENl1v7ArdJmR1ExA'
 
 mapboxgl.accessToken = mapAccessToken

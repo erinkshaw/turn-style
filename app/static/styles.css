@@ -65,6 +65,7 @@ hr {
 }
 
 #learn-more {
+  top: 0;
   height: 1.5em;
   width: 1.5em;
   display: flex;
@@ -87,3 +88,6 @@ hr {
   border-radius: 50%;
   cursor: pointer;
 }
+
+/* a couple classes for them that makes them bigger then remove class on transition end or something so that it's a little smoother and goes down */
+/* add transitions for the markers!! then */
