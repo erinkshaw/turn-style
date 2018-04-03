@@ -26,3 +26,6 @@ if __name__ == '__main__':
   f = open("data.json","w+")
   f.write(json.dumps(get_difference_stn_sorted()))
   f.close()
+
+
+

@@ -1,3 +1,4 @@
+
 body {
   background-color: #0e0e0e;
   font-family: 'Roboto', sans-serif;
@@ -83,11 +84,45 @@ hr {
 }
 
 .marker {
-  width: 3px;
-  height: 3px;
+  width: 5px;
+  height: 5px;
   border-radius: 50%;
   cursor: pointer;
+  transition-property: height, width;
+  transition-duration: .5s;
+  /* transition-timing-function: ease-in-out; */
 }
 
-/* a couple classes for them that makes them bigger then remove class on transition end or something so that it's a little smoother and goes down */
-/* add transitions for the markers!! then */
+.xxsmall {
+  height: 10px;
+  width: 10px;
+}
+.xsmall {
+  height: 15px;
+  width: 15px;
+}
+
+.small {
+  height: 20px;
+  width: 20px;
+}
+
+.medium {
+  height: 25px;
+  width: 25px;
+}
+
+.large {
+  height: 30px;
+  width: 30px;
+}
+
+.xlarge {
+  height: 35px;
+  width: 35px;
+}
+
+.xxlarge {
+  height: 40px;
+  width: 40px;
+}
