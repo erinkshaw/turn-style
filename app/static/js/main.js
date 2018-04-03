@@ -27,12 +27,10 @@ const mtaPantone = {
 let stations = {}
 
 let data = []
-console.log(Date(), 'run start')
-fetch('/data/stations')
+fetch('/data/stations.json')
   .then(blob => blob.json())
   .then(geoStns => {
     stations = geoStns
-    console.log(Date(), 'stations')
     stations.features.forEach(function(marker) {
       const station = marker.properties.STATION.slice(-1)
       const el = document.createElement('div')
@@ -46,32 +44,32 @@ fetch('/data/stations')
     })
   })
 
-fetch('/data/data_by_date')
-  .then(blob => blob.json())
-  .then(turnstileData => {
-    console.log(Date(), 'data')
-    data = turnstileData
-    const dates = Object.keys(data).sort()
-    function next(counter, maxLoops) {
-      // reset if maxLoops has been reached
-      if (counter++ === maxLoops) counter = 0
+  fetch('/data/data_by_date.json')
+    .then(blob => blob.json())
+    .then(turnstileData => {
+      console.log(Date(), 'data')
+      data = turnstileData
+      const dates = Object.keys(data).sort()
+      function next(counter, maxLoops) {
 
-      const dateDiv = document.querySelector('#date-time')
-      const makeDate = new Date(dates[counter])
-      const date = dates[counter]
-      dateDiv.textContent = `${makeDate.toString().slice(0, -18)}`
+        if (counter++ === maxLoops) return;
 
-      data[date].forEach(stn => {
-        const stnEl = document.getElementById(`${stn.STATION.split(' ').join('')}${stn.LINENAME}`)
-        if (stnEl) {
-          const growSize = getGrowth(stn.ENTRY_INTERVAL)
-          if (growSize) stnEl.classList.add(growSize)
-        }
-      })
-      setTimeout(() => { next(counter, maxLoops)}, 500)
-    }
-    next(0, dates.length)
-  })
+        const dateDiv = document.querySelector('#date-time')
+        const makeDate = new Date(dates[counter])
+        const date = dates[counter]
+        dateDiv.textContent = `${makeDate.toString().slice(0, -18)}`
+
+        data[date].forEach(stn => {
+          const stnEl = document.getElementById(`${stn.STATION.split(' ').join('')}${stn.LINENAME}`)
+          if (stnEl) {
+            const growSize = getGrowth(stn.ENTRY_INTERVAL)
+            if (growSize) stnEl.classList.add(growSize)
+          }
+        })
+        setTimeout(() => { next(counter, maxLoops)}, 500)
+      }
+      next(0, dates.length)
+    })
 
 const mapAccessToken = 'pk.eyJ1IjoiZXJpbmtzaGF3IiwiYSI6ImNqZTNlZ3ZqcjY3YmoycXFwMjR1bGNzZnYifQ.qoC7ahENl1v7ArdJmR1ExA'
 
