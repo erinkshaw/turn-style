@@ -1,3 +1,4 @@
 from app import app
 
-app.run(threaded=True)
+# app.run(threaded=True)
+
