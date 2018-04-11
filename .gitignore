@@ -10,3 +10,4 @@ turnstile_180224.txt
 /test/*
 
 *txt
+!requirements.txt
