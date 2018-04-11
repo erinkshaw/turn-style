@@ -27,10 +27,12 @@ const mtaPantone = {
 let stations = {}
 
 let data = []
+
 fetch('/data/stations.json')
   .then(blob => blob.json())
   .then(geoStns => {
     stations = geoStns
+
     stations.features.forEach(function(marker) {
       const station = marker.properties.STATION.slice(-1)
       const el = document.createElement('div')
@@ -47,7 +49,6 @@ fetch('/data/stations.json')
   fetch('/data/data_by_date.json')
     .then(blob => blob.json())
     .then(turnstileData => {
-      console.log(Date(), 'data')
       data = turnstileData
       const dates = Object.keys(data).sort()
       function next(counter, maxLoops) {
